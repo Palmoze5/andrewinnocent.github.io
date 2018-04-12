@@ -396,6 +396,7 @@ footer {
       margin-top: 30px;
       margin-bottom: 15px;
       border-radius: 50%;
+      max-width: 250px;
     }
 }
 
@@ -470,10 +471,6 @@ footer {
     p {
         color: $text;
         margin: 0;
-    }
-
-    .profile-image {
-        float: left;
     }
 }
 
@@ -921,6 +918,10 @@ footer {
 
         h3 {
             font-size: 1.5em;
+        }
+
+        .profile-image {
+          max-width: 180px;
         }
     }
 
