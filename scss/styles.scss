@@ -34,7 +34,7 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
+$base-color: #a5d1e8;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -737,7 +737,7 @@ footer {
         margin: 7px;
         padding: 5px 10px;
         color: $heading;
-        background: darken($background-alt, 5%);
+        background: lighten($base-color, 15%);
         list-style: none;
         cursor: default;
         font-size: 1.2em;
